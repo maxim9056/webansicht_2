@@ -1,0 +1,18 @@
+site_name: My Docs
+site_name: FanlytiX – Projekt Doku
+theme:
+  name: material
+nav:
+  - Start: index.md
+  - Projektsteckbrief: projektsteckbrief.md
+  - Installation: installation.md
+  - Nutzung: nutzung.md
+  - Kontakt: kontakt.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
